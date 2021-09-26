@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".MainActivity">
+
+    <!-- XML 주석의 형태는 이와 같다
+    주석 처리하고 싶은 영역을 드래그 한 뒤 'Ctrl+/'하면 손 쉽게 주석처리 가능 -->
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/metrm"
+        android:scaleType="centerCrop"
+        tools:ignore="ContentDescription" />
+
+    <!--이미지 경로를 지정할 경우 확장자(.jpg, .png 등)을/를 제외한 이름을 넣어야 함-->
+
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        색을 지정할 경우 '#'필수, 아래의 표현은 16진수로 각 R/G/B를 나타냄-->
+<!--        android:textColor="#ff0000"-->
+<!--        android:textSize="48sp"-->
+<!--        android:text="Hello World!" />-->
+
+</RelativeLayout>
