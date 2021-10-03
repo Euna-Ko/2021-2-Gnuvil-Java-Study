@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+
+    <!--Fragment가 고정되는 곳-->
+    <fragment
+        android:id="@+id/fragment_left"
+        android:name="com.gnuvil_practice_ko.class_5b_5c.LeftFragment"
+        android:background="#3B5998"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent" />
+
+    <!--Fragment가 자주 바뀌는 곳, CODE에서 실행시킬 경우-->
+    <FrameLayout
+        android:id="@+id/fragment_right"
+        android:background="#DFE3EE"
+        android:layout_weight="2"
+        android:layout_width="0dp"
+        android:layout_height="match_parent" />
+
+
+    <!--XML에서 실행시킬 경우-->
+<!--    <fragment-->
+<!--        android:id="@+id/fragment_first"-->
+<!--        android:name="com.gnuvil_practice_ko.class_5b_5c.FirstFragment"-->
+<!--        android:layout_weight="2"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="match_parent" />-->
+
+
+
+</LinearLayout>
